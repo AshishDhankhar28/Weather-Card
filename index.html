@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main_card">
+        <div class="search_bar">
+            <input type="text" placeholder="enter city name" class="search">
+            <img id="button" src="images/search.svg" alt="search">
+        </div>
+        <div class="valid">
+            Invalid Name
+        </div>
+        <div class="condition">
+            <div>
+                <img id="cloud" class="picture" src="images/clouds.png">
+                <h1 class="temp"> 69 °C</h1>
+                <h1 class="city">INDIA</h2>
+            </div>
+    
+            <div class="details">
+                <div class="col">
+                    <img id="image" src="images/humidity.png">
+                    <div>
+                        <p class ="Humidity">20%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img id="image" src="images/wind.png">
+                    <div>
+                        <p class ="Wind">20 km/hr</p>
+                        <p>Wind</p>
+                    </div>
+                </div>
+                
+            
+            </div>
+        </div>
+    </div>
+
+    <!-- link JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
